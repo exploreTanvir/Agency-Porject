@@ -2,10 +2,40 @@
   height: 50px;
   padding: 10px 20px;
   display: flex;
+  align-items: center;
   justify-content: space-between;
 
-  h1 {
+  .left {
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: space-between;
+
+    ul {
+      display: flex;
+      list-style: none;
+
+      li {
+        margin-right: 30px;
+        font-size: 20px;
+        font-weight: bold;
+        color: gray;
+      }
+    }
+
+    h1 {
+      font-weight: bold;
+      text-decoration: underline crimson;
+    }
+  }
+
+  .right {
+    border: 2px solid white;
+    padding: 10px 15px;
+    background: crimson;
+    color: white;
     font-weight: bold;
-    text-decoration: underline crimson;
+    border-radius: 10px;
+    cursor: pointer;
   }
 }
