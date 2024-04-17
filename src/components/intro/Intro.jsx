@@ -2,6 +2,7 @@ import React from 'react'
 import "./intro.css"
 
 import women from "../../img/man.png"
+import Anime from '../animatedShape/Anime'
 
 const Intro = () => {
   return (
@@ -25,9 +26,7 @@ const Intro = () => {
       </div>
       <div className="introShape">
       </div>
-      <div className="square"><i class="fa-solid fa-comments-dollar"></i></div>
-      <div className="circle"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
-      <div className="rectangle"></div>
+     <Anime/>
 
     </div>
   )

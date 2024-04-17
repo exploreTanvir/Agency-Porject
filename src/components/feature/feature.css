@@ -1,0 +1,57 @@
+.feature {
+  height: 74vh;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  .left {
+    width: 50%;
+
+    img {
+      width: 100%;
+      margin-top: 5px;
+    }
+  }
+  .right {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+
+    .title {
+      font-size: 50px;
+    }
+    .subTitle {
+      font-size: 24px;
+      font-style: italic;
+      color: #333;
+      margin: 25px 0;
+    }
+    .desc {
+      font-size: 20px;
+      color: #777;
+      margin-bottom: 7px;
+    }
+
+    button {
+      padding: 15px;
+      background: darkblue;
+      color: white;
+      border-radius: 10px;
+      font-weight: bold;
+      border: none;
+      letter-spacing: 2px;
+    }
+  }
+
+  .introShape {
+    clip-path: polygon(0 0, 55% 0%, 40% 100%, 0 100%);
+    background: pink;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+  }
+}
