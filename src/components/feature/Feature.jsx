@@ -10,7 +10,7 @@ const Feature = () => {
             <img src={app} alt="" />
         </div>
         <div className="right">
-            <span className="title"><b>good</b> design
+            <span className="title"><b>Good</b> design
           <br />
           <b>good</b> business</span>
             <span className="subTitle">We know that good design means good business.</span>
