@@ -1,0 +1,28 @@
+.price {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  .introShape {
+    clip-path: polygon(40% 0, 100% 0%, 100% 100%, 63% 100%);
+    background: crimson;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+  }
+  .square {
+    left: 10rem;
+    background: rgb(89, 255, 73);
+    top: 3rem;
+  }
+  .circle {
+    left: 35rem;
+    background: rgb(31, 173, 255);
+    top: 39rem;
+  }
+}

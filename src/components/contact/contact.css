@@ -1,0 +1,86 @@
+.contact {
+  height: 90%;
+  background: url(../../img/istockphoto-1090460908-612x612.jpg);
+
+  .wrapper {
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .formContainer {
+      width: 50%;
+
+      h1 {
+        margin: 50px;
+        margin-top: 0;
+        font-weight: bold;
+        font-size: 3rem;
+      }
+
+      form {
+        height: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .leftForm {
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          margin-right: 20px;
+
+          input {
+            width: 200px;
+            padding: 20px;
+          }
+        }
+        .rightForm {
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+
+          textarea {
+            width: 200px;
+            height: 60%;
+            padding: 20px;
+          }
+          button {
+            padding: 15px;
+            background: darkblue;
+            color: white;
+            border-radius: 10px;
+            font-weight: bold;
+            border: none;
+            letter-spacing: 2px;
+          }
+        }
+      }
+    }
+    .AddressContainer {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .addressItem {
+        display: flex;
+        align-items: center;
+        margin-bottom: 50px;
+
+        .icon {
+          width: 20px;
+          margin-right: 20px;
+        }
+
+        .text {
+          font-size: 20px;
+          margin-right: 15px;
+        }
+      }
+    }
+  }
+}

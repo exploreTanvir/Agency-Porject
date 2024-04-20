@@ -2,6 +2,7 @@
   height: 74vh;
   display: flex;
   position: relative;
+  margin-top: 25px;
   overflow: hidden;
   .left {
     width: 50%;
@@ -53,5 +54,21 @@
     left: 0;
     position: absolute;
     z-index: -1;
+  }
+
+  .circle {
+    left: 55rem;
+    background: rgb(31, 173, 255);
+    top: 3rem;
+  }
+  .rectangle {
+    left: 55rem;
+    background: rgb(171, 171, 171);
+    top: 19rem;
+  }
+  .square {
+    left: 87rem;
+    background: rgb(255, 206, 31);
+    top: 15rem;
   }
 }

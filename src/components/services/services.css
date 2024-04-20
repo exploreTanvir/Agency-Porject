@@ -7,7 +7,7 @@
     width: 50%;
 
     img {
-       /* display: ${(props) => props.open && "none"}; */
+      /* display: ${(props) => props.open && "none"}; */
       height: 100%;
       margin-left: 10px;
     }
@@ -62,4 +62,5 @@
       }
     }
   }
+  
 }
