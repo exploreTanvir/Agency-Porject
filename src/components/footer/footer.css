@@ -1,0 +1,20 @@
+.footer {
+  height: 10%;
+  background: #111;
+  color: lightgray;
+
+  .wrapper {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+
+    ul {
+      list-style: none;
+      display: flex;
+
+      li {
+        margin-right: 20px;
+      }
+    }
+  }
+}

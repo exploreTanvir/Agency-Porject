@@ -1,5 +1,5 @@
 .contact {
-  height: 90%;
+  height: 70%;
   background: url(../../img/istockphoto-1090460908-612x612.jpg);
 
   .wrapper {
@@ -11,6 +11,7 @@
 
     .formContainer {
       width: 50%;
+      margin-left: 10rem;
 
       h1 {
         margin: 50px;
@@ -33,7 +34,7 @@
           margin-right: 20px;
 
           input {
-            width: 200px;
+            width: 20rem;
             padding: 20px;
           }
         }
@@ -44,7 +45,7 @@
           justify-content: space-between;
 
           textarea {
-            width: 200px;
+            width: 20rem;
             height: 60%;
             padding: 20px;
           }
