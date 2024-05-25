@@ -7,7 +7,7 @@ const Card = () => {
   return (
     <div className='cardContainer'>
         <img src={search} alt="" />
-        <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <p>Lorem ipsum dolor sit ame consectetur.</p>
 
     </div>
   )
